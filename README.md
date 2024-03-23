@@ -1,4 +1,4 @@
-# ESP32 IDF KAA Cellular IoT Platform
+# ESP32 KAA Cellular IoT Platform
 The Buildstorm platform simplifies the process of integrating KAA IoT core features onto ESP32 Hardware, covering basic IoT functionalities like pub/sub to advanced features such as OTA updates and device provisioning, the platform handles it all. This simplified approach saves developers time and effort, empowering them to concentrate on creating innovative IoT solutions without encountering complex integration challenges.
 
 Expanding the capabilities of ESP32 hardware to include Cellular IoT functionalities unlocks new possibilities for IoT projects. With cellular connectivity, devices can communicate over long distances, even in remote or mobile environments where traditional Wi-Fi connections are impractical. This broader reach enables applications such as asset tracking, remote monitoring, and industrial automation.
