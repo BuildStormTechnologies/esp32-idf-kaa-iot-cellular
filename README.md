@@ -1,4 +1,4 @@
-# ESP32 IDF KAA IoT Platform
+# ESP32 IDF KAA Cellular IoT Platform
 The Buildstorm platform simplifies the process of integrating KAA IoT core features onto ESP32 Hardware, covering basic IoT functionalities like pub/sub to advanced features such as OTA updates and device provisioning, the platform handles it all. This simplified approach saves developers time and effort, empowering them to concentrate on creating innovative IoT solutions without encountering complex integration challenges.
 
 Expanding the capabilities of ESP32 hardware to include Cellular IoT functionalities unlocks new possibilities for IoT projects. With cellular connectivity, devices can communicate over long distances, even in remote or mobile environments where traditional Wi-Fi connections are impractical. This broader reach enables applications such as asset tracking, remote monitoring, and industrial automation.
@@ -24,7 +24,7 @@ Supported features:
 
 ## References
 1. [KAA IoT Platform](https://buildstorm.com/solutions/kaa-iot-cellular-solution/)
-2. [KAA IoT Platform](https://buildstorm.com/solutions/kaa-iot-cellular-solution/)
+2. [KAA IoT Device Setup](https://buildstorm.com/blog/kaa-iot-device-setup/)
 2. [Exploring KAA IoT Commands](https://buildstorm.com/blog/kaa-iot-commands/)
 3. [ESP32 OTA Updates with KAA IoT](https://buildstorm.com/blog/kaa-iot-ota-updates/)
 
@@ -36,8 +36,9 @@ Supported features:
 
 ---
 ## Example Setup
-1. Update the following WiFi and KAA parameters in `app_config.h` of the example
-2. This configuration will be same accross all examples
+1. Follow the [KAA IoT Device Setup](https://buildstorm.com/blog/kaa-iot-device-setup/) article to configure your first device on Kaa IoT cloud
+2. Update the following WiFi and KAA parameters in `app_config.h` of the example
+3. This configuration will be same accross all examples
 
 ```
 #define TEST_WIFI_SSID "YOUR WIFI SSID"
