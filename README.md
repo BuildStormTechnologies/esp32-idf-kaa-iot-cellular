@@ -11,11 +11,10 @@ This establishes a robust foundation for your upcoming IoT project.
 
 Supported features:
 
-1. MQTT pub/sub
-2. Telemetry updates
-3. Metadata management
-4. Command processing
-5. OTA firmware updates
+1. Telemetry updates
+2. Metadata management
+3. Command processing
+4. OTA firmware updates
 
 ## Suppported Modems
 1. Quectel EC200U
