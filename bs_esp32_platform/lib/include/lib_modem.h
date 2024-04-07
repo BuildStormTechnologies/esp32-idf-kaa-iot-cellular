@@ -69,9 +69,9 @@ typedef enum{
     QUECTEL_M95,
     QUECTEL_BG96,
     QUECTEL_EC200U,
-    QUECTEL_MAX,
-    SIMA7670C=10,
-    MODEL_MAX
+    SIMA7670C,
+    SIMA7670E,
+    MODEM_MODEL_MAX
 }modemModel_et;
 
 typedef struct
@@ -87,6 +87,21 @@ typedef struct
     const char *pApnPwd;
 } modemPortConfig_st;
 
+typedef struct
+{
+  char timeUTC[12];
+  char status[2];
+  char lat[11];
+  char ns[2];
+  char lon[12];
+  char ew[2];
+  char speed[10];
+  char course[10];
+  char dateUTC[7];
+  bool gpsValid;       // 0-Invalid, 1-Valid
+  uint8_t newDataReceived; // not for user, do not modify this value.
+} gpsData_st;
+
 
 char *MODEM_getImei();
 int8_t MODEM_getRssi();
@@ -99,5 +114,8 @@ void MODEM_restart();
 
 char *MODEM_getRevision();
 const char *MODEM_getModel();
+
+bool GPS_getData(gpsData_st *ps_gpsData);
+void GPS_enableDisable(uint8_t enable);
 
 #endif

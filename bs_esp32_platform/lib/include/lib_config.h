@@ -58,6 +58,7 @@ typedef enum
     LIB_MODULE_BLE,
     LIB_MODULE_WIFI,
     LIB_MODULE_MQTT,
+    LIB_MODULE_MODEM,
     LIB_MODULE_FLASH,
     DRV_MODULE_BLE,
     LIB_MODULE_JSON,
@@ -65,7 +66,6 @@ typedef enum
     LIB_MODULE_OTA,
     LIB_MODULE_UART,
     LIB_MODULE_KAA,
-    LIB_MODULE_MODEM,
     LIB_MODULE_MAX
 } menusLibModule_et;
 
